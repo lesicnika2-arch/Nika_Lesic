@@ -1,0 +1,79 @@
+	@charset "utf-8";
+	/* CSS DOCUMENT */
+	
+	@font-face {
+    font-family: "MojFont";
+    src: url("NikaLesic.ttf");
+}
+	
+h1{
+	font-family: "MojFont";
+	color: teal;
+	font-size: 60px ;
+}
+h2{
+	font-family: Gotham, "Helvetica Neue", Helvetica, "Arial", "sans-serif";
+	color: teal;
+	font-size:30px;
+}
+h3{
+	font-family:Gotham, "Helvetica Neue", Helvetica, "Arial", "sans-serif";
+	color:teal;
+	font-size:70px;
+}
+p{
+	color:darkbrown;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:16px;
+	line-height:18px;
+	width:600px;
+	background-color:moccasin;
+	padding:20px;
+ }
+ .paragraf_2{color:darkbrown; background-color: moccasin;} 
+  .novi_blok{
+	  background-color: rgba(255,255,255,0.9);
+	  padding:20px;
+	  margin:20px;
+	  width:50%;
+  }
+ .paragraf_3{color:teal}
+	.novi_blok{
+	  background-color: rgba(255,255,255,0.9);
+	  padding:20px;
+	  margin:20px;
+	  width:30%;
+ }
+ img{
+	height: 200px;
+ }
+.lista_obicna {
+    background-color: rgba(255,255,255,0.9);
+    padding: 25px;
+    margin: 30px 0;
+    width: 650px;   
+ }
+ mark {
+    background-color: mediumaquamarine;
+}
+ .pozadina{
+	background-image: url("slike/pozadina8.jpg");
+ }	
+ nav ul {padding:20px;
+		margin-left: auto; 
+		margin-right:auto;
+		width: 100%;
+		} 
+ nav li {display:inline; 
+				background-color:teal;
+				padding:20px;
+				border: 2px teal;
+ }
+ nav li:active {background-color:azure;} 
+		
+ nav li a {	color:white;
+				font-family: "Montserrat", sans-serif; 
+				text-transform: uppercase;
+ }
+ nav li a:link {text-decoration:none;}
+ nav li a:hover {text-decoration:underline;}
